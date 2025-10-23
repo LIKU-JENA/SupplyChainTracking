@@ -1,7 +1,7 @@
 # Supply Chain Tracking System
 A Python-based supply chain and logistics tracking system implemented using Object-Oriented Programming (OOP) principles.
-                                                                                                                                                                                       🧭 Overview
-
+                                                                                                                                                                                       
+Overview:
 This project demonstrates how object-oriented programming can be applied to design and manage a supply chain tracking system.
 It simulates the process of creating shipments, tracking them across various stages, generating reports, and handling exceptions — all organized into modular Python files.
 
@@ -98,6 +98,7 @@ Language: Python 3.x
 Paradigm: Object-Oriented Programming (OOP)
 
 Libraries:Spider
+
 
 
 
