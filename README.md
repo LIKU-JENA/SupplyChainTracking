@@ -52,7 +52,7 @@ Polymorphism	Common interface for updating and displaying shipment info, even if
 
 1. Clone the repository
 
-git clone https://github.com/your-username/supply_chain_tracking.git
+git clone https://github.com/LIKU-JENA/supply_chain_tracking.git
 cd supply_chain_tracking
 
 
@@ -98,4 +98,5 @@ Language: Python 3.x
 Paradigm: Object-Oriented Programming (OOP)
 
 Libraries:Spider
+
 
