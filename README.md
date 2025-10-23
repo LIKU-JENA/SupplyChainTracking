@@ -1,85 +1,101 @@
 # Supply Chain Tracking System
+A Python-based supply chain and logistics tracking system implemented using Object-Oriented Programming (OOP) principles.
+🧭 Overview
+
+This project demonstrates how object-oriented programming can be applied to design and manage a supply chain tracking system.
+It simulates the process of creating shipments, tracking them across various stages, generating reports, and handling exceptions — all organized into modular Python files.
+
+The program can be extended for real-world logistics applications such as route tracking, shipment monitoring, and data reporting.
 
 
+🗂️ Project Structure
 
-supply\_chain\_tracking/
-
-│── main.py               # Entry point (menu-driven program)
-
-│── shipment.py           # Shipment class
-
-│── tracker.py            # Tracker class to manage multiple shipments
-
-│── report.py             # Reporting and history
-
-│── exceptions.py         # Custom exceptions
-
-│── utils.py              # Helper utilities
-
-│── data/                 
-
-│   └── sample\_data.json  # Optional dataset
-
-│── README.md             # Project details + instructions
+supply_chain_tracking/
+│
+├── main.py          # Entry point (menu-driven program)
+├── shipment.py      # Shipment class
+├── tracker.py       # Tracker class to manage multiple shipments
+├── report.py        # Reporting and shipment history
+├── exceptions.py    # Custom exceptions
+├── utils.py         # Helper utilities
+│
+├── data/
+│   └── sample_data.json   # Optional dataset for demo
+│
+└── README.md        # Project details + instructions
 
 
+---
+
+⚙️ Features
+
+✅ Object-oriented design (encapsulation, abstraction, inheritance, polymorphism)
+✅ Add and manage multiple shipments
+✅ Track shipment status and history
+✅ Generate and export reports
+✅ Handle exceptions and invalid operations safely
+✅ Modular and easy-to-extend Python codebase
 
 
+---
 
-\## Domain
+🧩 OOP Concepts Used
 
-Logistics \& Supply Chain
+Concept	How It’s Used
 
+Encapsulation	Shipment and Tracker classes hide internal data using private attributes and methods.
+Abstraction	Interfaces like Tracker and Report abstract complex logic behind simple methods.
+Inheritance	Can be extended for specialized shipment types (e.g., ExpressShipment, InternationalShipment).
+Polymorphism	Common interface for updating and displaying shipment info, even if subclasses differ.
 
+🚀 How to Run
 
-\## Problem Statement
+1. Clone the repository
 
-Create a system to track shipments across supply chain stages.  
-
-Each shipment should have:
-
-\- A unique ID
-
-\- Current status
-
-\- History of updates
-
+git clone https://github.com/your-username/supply_chain_tracking.git
+cd supply_chain_tracking
 
 
-\## Learning Goals
+2. Run the main program
 
-\- Understand object-oriented programming (OOP)
-
-\- Work with multiple classes (`Shipment`, `Tracker`)
-
-\- Implement history tracking with timestamps
-
-\- Practice file handling \& reporting
-
-\- Handle custom exceptions
+python main.py
 
 
+3. Follow the menu prompts to add, update, track, and generate shipment reports.
 
-\## Process for Create SupplyChainTracking system
+📊 Example Flow
 
-1\. Implement the \*\*Shipment class\*\* (ID, status, history).
+Step 1: Add new shipment
+Step 2: Update shipment status (e.g., “In Transit”, “Delivered”)
+Step 3: View all active shipments
+Step 4: Generate tracking reports
 
-2\. Implement the \*\*Tracker class\*\* (manage multiple shipments).
+Example (pseudo output):
 
-3\. Build a menu in `main.py` to:
+Shipment ID: SHP102
+Origin: Mumbai
+Destination: Delhi
+Status: In Transit
+Last Updated: 2025-10-22 14:30
 
-&nbsp;  - Add shipments
+📁 Sample Data
 
-&nbsp;  - Update statuses
+A demo file (data/sample_data.json) is included to simulate preloaded shipments.
+Example snippet:
 
-&nbsp;  - View history
+[
+  {
+    "shipment_id": "SHP001",
+    "origin": "Chennai",
+    "destination": "Hyderabad",
+    "status": "Delivered"
+  }
 
-&nbsp;  - Generate reports
+🧑‍💻 Tech Stack
 
-4\. Use `utils.py` for ID generation.
+Language: Python 3.x
 
-5\. Add error handling with custom exceptions.
+Paradigm: Object-Oriented Programming (OOP)
 
-
-
+Libraries:Spider
 
